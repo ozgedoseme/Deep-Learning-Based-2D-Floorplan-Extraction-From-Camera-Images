@@ -27,17 +27,6 @@ Utilizing the **HorizonNet** architecture, the model predicts ceiling-wall and f
 
 The project workflow follows four main stages:
 
-[1. Literature Review & Dataset Selection]
-                   │
-                   ▼
-     [2. Model Training & Testing]
-                   │
-                   ▼
-    [3. Generation of 2D Room Plans]
-                   │
-                   ▼
-[4. Generation of Complete House Floor Plan]
-
 ### 1. Literature Review & Dataset Selection
 - **HorizonNet Framework:** Takes a single 360° RGB equirectangular panorama as input and predicts column-wise ceiling/floor boundaries and corner locations under the **Manhattan World assumption**.
 - **Structured3D Dataset (Synthetic):** ~3,500 panoramas used. Labels were extracted directly from raw JSON files using a custom-developed parsing algorithm.
